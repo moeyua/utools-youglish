@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <script>
+            const utools = window.utools;
+            utools.onPluginEnter(({ code, type, payload }) => {
+                utools.ubrowser.goto('https://youglish.com/pronounce/' + payload + '/english?').run()
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{
+	"main": "index.html",
+	"logo": "logo.png",
+	"features": [
+		{
+		  "code": "YouGlish",
+		  "explain": "利用 YouTube 查找单词发音",
+			"cmds":[{
+                "type": "over",
+                "label": "Say it!"
+            }]
+		}
+	]
+}
