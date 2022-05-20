@@ -6,9 +6,9 @@ window.exports = {
        args: {
           enter: (action) => {
              // action = { code, type, payload }
-             utools.hideMainWindow()
+            //  utools.hideMainWindow()
              utools.ubrowser.goto('https://youglish.com/pronounce/' + action.payload + '/english?').run()
-             utools.outPlugin()
+            //  utools.outPlugin()
           }  
        } 
     }
